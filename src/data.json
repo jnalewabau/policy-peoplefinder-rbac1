@@ -1,0 +1,109 @@
+{
+  "roles": {
+    "viewer": {
+      "description": "PeopleFinder viewers",
+      "perms": {
+        "peoplefinder.GET.api.users": {
+          "allowed": true,
+          "visible": true,
+          "enabled": true
+        },
+        "peoplefinder.POST.api.users": {
+          "allowed": false,
+          "visible": false,
+          "enabled": false
+        },
+        "peoplefinder.GET.api.users.__id": {
+          "allowed": true,
+          "visible": true,
+          "enabled": true
+        },
+        "peoplefinder.POST.api.users.__id": {
+          "allowed": false,
+          "visible": true,
+          "enabled": false
+        },
+        "peoplefinder.PUT.api.users.__id": {
+          "allowed": false,
+          "visible": true,
+          "enabled": true
+        },
+        "peoplefinder.DELETE.api.users.__id": {
+          "allowed": false,
+          "visible": false,
+          "enabled": false
+        }
+      }
+    },
+    "editor": {
+      "description": "PeopleFinder editor",
+      "perms": {
+        "peoplefinder.GET.api.users": {
+          "allowed": true,
+          "visible": true,
+          "enabled": true
+        },
+        "peoplefinder.POST.api.users": {
+          "allowed": true,
+          "visible": true,
+          "enabled": true
+        },
+        "peoplefinder.GET.api.users.__id": {
+          "allowed": true,
+          "visible": true,
+          "enabled": true
+        },
+        "peoplefinder.POST.api.users.__id": {
+          "allowed": true,
+          "visible": true,
+          "enabled": true
+        },
+        "peoplefinder.PUT.api.users.__id": {
+          "allowed": true,
+          "visible": true,
+          "enabled": true
+        },
+        "peoplefinder.DELETE.api.users.__id": {
+          "allowed": false,
+          "visible": true,
+          "enabled": false
+        }
+      }
+    },
+    "admin": {
+      "description": "PeopleFinder administrator",
+      "perms": {
+        "peoplefinder.GET.api.users": {
+          "allowed": true,
+          "visible": true,
+          "enabled": true
+        },
+        "peoplefinder.POST.api.users": {
+          "allowed": true,
+          "visible": true,
+          "enabled": true
+        },
+        "peoplefinder.GET.api.users.__id": {
+          "allowed": true,
+          "visible": true,
+          "enabled": true
+        },
+        "peoplefinder.POST.api.users.__id": {
+          "allowed": true,
+          "visible": true,
+          "enabled": true
+        },
+        "peoplefinder.PUT.api.users.__id": {
+          "allowed": true,
+          "visible": true,
+          "enabled": true
+        },
+        "peoplefinder.DELETE.api.users.__id": {
+          "allowed": true,
+          "visible": true,
+          "enabled": true
+        }
+      }
+    }
+  }
+}
